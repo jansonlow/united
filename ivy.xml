@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
+
+	<info organisation="com.united" module="tests" />
+
+	<dependencies>
+		<dependency org="org.seleniumhq.selenium" name="selenium-api" rev="2.53.0"/>
+		<dependency org="org.seleniumhq.selenium" name="selenium-chrome-driver" rev="2.53.0"/>
+        <dependency org="org.seleniumhq.selenium" name="selenium-firefox-driver" rev="2.53.0"/>
+        <dependency org="org.seleniumhq.selenium" name="selenium-java" rev="2.53.0"/>
+        <dependency org="org.seleniumhq.selenium" name="selenium-remote-driver" rev="2.53.0"/>
+        <dependency org="org.seleniumhq.selenium" name="selenium-support" rev="2.53.0"/>
+
+        <dependency org="junit" name="junit" rev="4.12"/>
+	</dependencies>
+
+</ivy-module>
